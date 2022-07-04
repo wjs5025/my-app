@@ -1,13 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import Input from "./Input";
+import reportWebVitals from "./reportWebVitals";
+import SignInMain from "./Test/SignInMain";
+import SignIn from "./Test/SignIn";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Input /> */}
+    {/* <App/> */}
+    <SignIn />
   </React.StrictMode>
 );
 
