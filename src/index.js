@@ -6,13 +6,15 @@ import Input from "./Input";
 import reportWebVitals from "./reportWebVitals";
 import SignInMain from "./Test/SignInMain";
 import SignIn from "./Test/SignIn";
+import PostImg from "./examples/PostImg";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     {/* <Input /> */}
     {/* <App/> */}
-    <SignIn />
+    {/* <SignIn /> */}
+    <PostImg />
   </React.StrictMode>
 );
 
